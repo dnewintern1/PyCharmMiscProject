@@ -10,12 +10,14 @@
 
 # int(days_per_week)
 
-
+#
 # fruits = ["apple", "pear", "banana", "Mango" , "peach"]
 # print(fruits)
 # print(fruits[2])
 # print(fruits[3:5])
 # fruits[0]= "orange"
+
+
 # print(fruits)
 # fruits.append("kiwi")
 # print(fruits)
@@ -24,24 +26,24 @@
 
 # ingredients = ["ham" , "bacon" , "spam" , "eggs"]
 # print(ingredients)
-
-# topping = ", ".join(ingredients)
+# #
+# topping = " , ".join(ingredients)
 # print(topping)
-
+#
 # sentence = f"Hi can i have these {topping}"
 # print(sentence)
 
 # workweek = ("monday" , "Tuesday" , "Wednesday" , "Thursday" , "friday")
 # print("exercise 1 " + workweek[0])
-
+#
 # print(workweek[3:6])
-
+#
 # print(workweek.count("Tuesday"))
-
+#
 # worktest = ("a" , "b" , "c" , "d" , "e" ,"f" ,"b")
 # print(worktest.count("b"))
-
-# del workweek[1]
+#
+# del worktest[1]
 
 # introduction to dictonary
 
@@ -54,19 +56,23 @@
 # print(Person.get("name")) #if it doesnt have any keys like that itwill crash
 
 # #difference with lists
+
 # colours= ["yellow" , "orange" , "red"]
+
 # print(colours[0])
+
 # person = {"name" : "Alice" , "age" : 42 , "email": "alice@wondere.com"}
 
 # grades = {"French" : 75, "English": 95, "Math" : 100 ,
 #      "Biology": 80}
-
-# print(grades.get("Biology"))
-
+#
+# # print(grades.get("Biology"))
+#
+# # print(grades.keys())
+# # print(grades.values())
+# # print(grades.items())
+#
 # print(grades.keys())
-# print(grades.values())
-# print(grades.items())
-
 # # grades.add("Drama" : 85)
 # grades["Drama"] = 85
 # print(grades.keys())
@@ -80,7 +86,7 @@
 # chars = ["a" , "b" , "d" , "c" , "a"]
 # unique_chars = set(chars)
 # print(unique_chars)
-
+# print(chars)
 # print("a" in unique_chars) #introduction to in keyword
 
 # unique_chars.add("s")
@@ -117,9 +123,9 @@
 # except Valueerror:
 #     print("please enter a no.")
 
-try:
-    x = int(input("please enter a (non-zero) number: "))
-    print("The outcome is ", 100 / x)
-except ZeroDivisionError:
-    print("Ooops! the was some issue. try again ")
+# try:
+#     x = int(input("please enter a (non-zero) number: "))
+#     print("The outcome is ", 100 / x)
+# except ZeroDivisionError:
+#     print("Ooops! the was some issue. try again ")
 
