@@ -1,3 +1,4 @@
+12
 age_from_user = int(input("what is your age: "))
 if age_from_user >= 65 or age_from_user <= 13:
     print("The ticket is cost is zero.")
