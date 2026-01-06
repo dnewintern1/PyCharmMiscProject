@@ -1,7 +1,7 @@
 # age_from_user = int(input("what is your age: "))
 # if age_from_user >= 65 or age_from_user <=13:
 #     print("The ticket is cost is zero.")
-
+# #
 # else:
 #     print("The ticket is cost is 25$.")
 
@@ -14,7 +14,7 @@
 # else:
 #     print("thanks for shopping")
 
-# planet = ["mercury" , "Venus" , "Earth" , "Jupitar" , "Saturn" , "Uranus" , "Neptune"]
+# planet = ["mercury" , "Venus" , "Earth" , "Jupiter" , "Saturn" , "Uranus" , "Neptune"]
 
 # for plan in planet:
 #     print(plan)
@@ -54,7 +54,10 @@
 # for n in range(10,21,2):
 #     print(n)
 
-person = {"name": "Alice", "age": 92, "email": "Alice@wonderlust@gmail.com", "Country": "UK"}
+person = {"name": "Alice",
+          "age": 92,
+          "email": "Alice@wonderlust@gmail.com",
+          "Country": "UK"}
 
 for name, details in person.items():
     print(name, ":", details)
