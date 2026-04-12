@@ -1,0 +1,12 @@
+@RELATION student
+
+@ATTRIBUTE marks NUMERIC
+@ATTRIBUTE attendance NUMERIC
+@ATTRIBUTE grade {A,B,C}
+
+@DATA
+85,90,A
+70,80,B
+60,70,C
+90,95,A
+75,85,B
